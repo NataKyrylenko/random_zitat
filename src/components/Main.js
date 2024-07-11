@@ -25,7 +25,7 @@ const Main = () => {
           <img src={image} alt="Chuck Norris" className="w-6/12" />
         </div>
       )}
-      <div className="flex flex-col items-center justify-center w-6/12">
+      <div className="flex flex-col gap-5 items-center justify-center w-6/12">
         <p className="text-lg mb-4">{quote}</p>
         <button
           onClick={fetchQuote}
